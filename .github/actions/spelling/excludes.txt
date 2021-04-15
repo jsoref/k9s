@@ -1,0 +1,14 @@
+# See https://github.com/check-spelling/check-spelling/wiki/Configuration-Examples:-excludes
+(?:^|/)(?i)COPYRIGHT
+(?:^|/)(?i)LICEN[CS]E
+(?:^|/)package(?:-lock)\.json$
+(?:^|/)vendor/
+ignore$
+\.lock$
+\.min\.
+\.mod$
+\.png$
+^CNAME$
+^go\.sum$
+^internal/config/testdata/k8s\.yml$
+^\.github/
