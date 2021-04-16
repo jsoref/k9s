@@ -37,7 +37,7 @@ As I've may have mentioned before, my front-end/UX FU is weak, so I've also adde
 
 NOTE: Pulses are very much experimental and could totally bomb on your clusters! So please thread carefully and please do report (kindly!) back.
 
-## BReaking Bad!
+## Breaking Bad
 
 In this drop I've broken a few things (that I know off...), here is the list as I can recall...
 
