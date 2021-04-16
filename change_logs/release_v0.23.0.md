@@ -6,7 +6,7 @@
 
 Thank you to all that contributed with flushing out issues and enhancements for K9s! I'll try to mark some of these issues as fixed. But if you don't mind grab the latest rev and see if we're happier with some of the fixes! If you've filed an issue please help me verify and close. Your support, kindness and awesome suggestions to make K9s better are as ever very much noted and appreciated!
 
-If you feel K9s is helping your Kubernetes journey, please consider joining our [sponsorhip program](https://github.com/sponsors/derailed) and/or make some noise on social! [@kitesurfer](https://twitter.com/kitesurfer)
+If you feel K9s is helping your Kubernetes journey, please consider joining our [sponsorship program](https://github.com/sponsors/derailed) and/or make some noise on social! [@kitesurfer](https://twitter.com/kitesurfer)
 
 On Slack? Please join us [K9slackers](https://join.slack.com/t/k9sers/shared_invite/enQtOTA5MDEyNzI5MTU0LWQ1ZGI3MzliYzZhZWEyNzYxYzA3NjE0YTk1YmFmNzViZjIyNzhkZGI0MmJjYzhlNjdlMGJhYzE2ZGU1NjkyNTM)
 
@@ -14,7 +14,7 @@ On Slack? Please join us [K9slackers](https://join.slack.com/t/k9sers/shared_inv
 
 ## ♫ Sounds Behind The Release ♭
 
-I figured why not share one of the tunes I was spinning when powering thru teh bugs? Might as well share the pain/pleasure while viewing these release notes!
+I figured why not share one of the tunes I was spinning when powering thru the bugs? Might as well share the pain/pleasure while viewing these release notes!
 
 * [On An Island - David Gilmour With Crosby&Nash](https://www.youtube.com/watch?v=kEa__0wtIRo)
 * [Cause We've Ended As Lovers - Jeff Beck](https://www.youtube.com/watch?v=VC02wGj5gPw)
@@ -68,7 +68,7 @@ NOTE! This is a one shot commands applied directly against your cluster and won'
 
 ## Crumbs On...Crumbs Off, Caterpillar
 
-We've added a new configuCCration to turn off the crumbs via `crumbsLess` configuration option. You can also toggle the crumbs via the new key option `Ctrl-g`. You can enable/disable this option in your ~/.k9s/config.yml or via command line using `--crumbsless` CLI option.
+We've added a new configuration to turn off the crumbs via `crumbsLess` configuration option. You can also toggle the crumbs via the new key option `Ctrl-g`. You can enable/disable this option in your ~/.k9s/config.yml or via command line using `--crumbsless` CLI option.
 
 ```yaml
 k9s:
