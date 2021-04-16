@@ -414,11 +414,11 @@ func (t TreeNode) toTitle() (title string) {
 		}
 	}()
 
-	categ := category(t.GVR)
-	if categ == "" {
+	cat := category(t.GVR)
+	if cat == "" {
 		title = fmt.Sprintf(topTitleFmt, color, n)
 	} else {
-		title = fmt.Sprintf(titleFmt, categ, color, n)
+		title = fmt.Sprintf(titleFmt, cat, color, n)
 	}
 
 	if !t.IsLeaf() {
